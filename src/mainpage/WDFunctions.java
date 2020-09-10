@@ -1,6 +1,7 @@
 package mainpage;
 import org.openqa.selenium.By;
 
+
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
@@ -32,6 +33,7 @@ public class WDFunctions {
 	}
 	public void typeByName(String loc, String val){
 		driver.findElement(By.name(loc)).sendKeys(val);
+		
 	}
 	// ------------------- CLICK -----------------
 	public void clickByXpath (String loc){
