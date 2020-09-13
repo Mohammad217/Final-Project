@@ -8,5 +8,6 @@ public class JoinFreeSignIn {
 	public String emailvalue      ="alauddinripon2172007@gmail.com";
 	public String passwordvalue   ="Armansamil08";
 	public String invaildemailLoc ="alauddinripon2132008@gmail.com";
+	public String myActualFullNameLoc="Mohammad uddin";
 
 }

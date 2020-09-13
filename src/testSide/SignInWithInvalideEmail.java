@@ -1,5 +1,7 @@
 package testSide;
 
+import org.openqa.selenium.By;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import locaterPage.JoinFreeSignIn;
@@ -16,7 +18,10 @@ public class SignInWithInvalideEmail extends BizBangladesh {
 		 clickByXpath(invaild.clickSignIn);
 		 typeByXpath(invaild.emailLoc , invaild.invaildemailLoc);
 		 typeByXpath(invaild.passwordLoc, invaild.passwordvalue);
-		 //clickByXpath(signInPage.signInButtonLoc);
-
+		 clickByXpath(invaild.signInButtonLoc);
+		 
+		 String act = driver.findElement(By.xpath(invaild.myActualFullNameLoc)).getText(); 
+		 String exp = "Mohammad uddin";
+		 Assert.assertEquals(act, exp);
 }
 }

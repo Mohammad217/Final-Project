@@ -1,5 +1,7 @@
 package testSide;
 
+import org.openqa.selenium.By;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import locaterPage.JoinFreeSignIn;
@@ -16,6 +18,10 @@ public class SignInTest extends BizBangladesh {
 	 typeByXpath(signInPage.emailLoc , signInPage.emailvalue);
 	 typeByXpath(signInPage.passwordLoc, signInPage.passwordvalue);
 	 //clickByXpath(signInPage.signInButtonLoc);
+	 
+	 String act = driver.findElement(By.xpath(signInPage.myActualFullNameLoc)).getText(); 
+	 String exp = "Mohammad uddin";
+	 Assert.assertEquals(act, exp);
 	 
  }
 }

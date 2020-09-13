@@ -6,4 +6,17 @@
       <class name="testSide.SignInWithInvalideEmail"/>
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="testSide.SignInWithInvalideEmail">
+        <methods>
+          <include name="tearDown"/>
+          <include name="afterEachTestMethod"/>
+          <include name="openBrowers"/>
+          <include name="SignInTest"/>
+          <include name="startTestSuite"/>
+        </methods>
+      </class> <!-- testSide.SignInWithInvalideEmail -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

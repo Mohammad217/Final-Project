@@ -21,6 +21,7 @@ public class JoinFreeLocater {
 	public String PasswordValue         ="Armansamil08";
 	public String confirmPasswordValue  ="Armansamil08";
 	public String companyNameValue      ="4sonlineStore";
+	public String myActualFullNameLoc   = "Mohammad uddin";
 	
 
 }
