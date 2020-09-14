@@ -13,7 +13,7 @@ public class JoinInTest extends BizBangladesh {
 	JoinFreeLocater joinInfree=new JoinFreeLocater();
 	
 	@Test
-	public JoinInTest(){
+	public void JoinInBiz(){
 		System.out.println("Join in free BizBangladesh ");
 		clickByXpath(joinInfree.joinInLinkLoc );
 		typeByXpath(joinInfree.companyNameLoc, joinInfree.companyNameValue);

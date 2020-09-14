@@ -13,7 +13,7 @@ public class SignInTest extends BizBangladesh {
 	JoinFreeSignIn signInPage=new JoinFreeSignIn();
  @Test
  
- public SignInTest(){
+ public void SignInBiz(){
 	 System.out.println("Sign in with vaild email and password ");
 	 clickByXpath(signInPage.clickSignIn);
 	 typeByXpath(signInPage.emailLoc , signInPage.emailvalue);
