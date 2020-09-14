@@ -1,37 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [AllTestSuite]">
-  <parameter name="browser" value="https://bizbangladesh.com/"/>
-  <test name="bizbangladesh.com all Test Suite">
-    <parameter name="browser" value="https://bizbangladesh.com/"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [bizbangladesh.com - Smoke Test Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Running Smoke suite in chrome">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testSide.JoinInTest"/>
       <class name="testSide.SignInTest"/>
-      <class name="testSide.SignInWithInvalideEmail"/>
+      <class name="testSide.JoinInTest"/>
     </classes>
-  </test> <!-- bizbangladesh.com all Test Suite -->
-  <test name="bizbangladesh.com all Test Suite(failed)">
-    <parameter name="browser" value="https://bizbangladesh.com/"/>
+  </test> <!-- Running Smoke suite in chrome -->
+  <test name="Running Smoke suite in chrome(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testSide.SignInWithInvalideEmail">
-        <methods>
-          <include name="SignInTest"/>
-        </methods>
-      </class> <!-- testSide.SignInWithInvalideEmail -->
       <class name="testSide.JoinInTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="afterEachTestMethod"/>
           <include name="JoinInTest"/>
-          <include name="openBrowers"/>
-          <include name="startTestSuite"/>
         </methods>
       </class> <!-- testSide.JoinInTest -->
       <class name="testSide.SignInTest">
         <methods>
           <include name="SignInTest"/>
+          <include name="tearDown"/>
+          <include name="afterEachTestMethod"/>
+          <include name="openBrowers"/>
+          <include name="startTestSuite"/>
         </methods>
       </class> <!-- testSide.SignInTest -->
     </classes>
-  </test> <!-- bizbangladesh.com all Test Suite(failed) -->
-</suite> <!-- Failed suite [AllTestSuite] -->
+  </test> <!-- Running Smoke suite in chrome(failed) -->
+</suite> <!-- Failed suite [bizbangladesh.com - Smoke Test Suite] -->
