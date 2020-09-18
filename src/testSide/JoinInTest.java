@@ -18,18 +18,27 @@ public class JoinInTest extends BizBangladesh {
 		clickByXpath(joinInfree.joinInLinkLoc );
 		typeByXpath(joinInfree.companyNameLoc, joinInfree.companyNameValue);
 		driver.findElement(By.cssSelector(joinInfree.countryClickLoc)).sendKeys(joinInfree.countrySelectLoc);
+		driver.findElement(By.xpath(joinInfree.districtClickLoc)).sendKeys(joinInfree.districtSelectvalue);
 		driver.findElement(By.cssSelector(joinInfree.contactPrasonClick)).sendKeys(joinInfree.contactselectLoc);
 		typeByXpath(joinInfree.fullNameLoc,joinInfree.fullNameValue);
 		typeByXpath(joinInfree.phoneNumberTypeLoc,joinInfree.phoneNumberValue);
 		typeByXpath(joinInfree.emailTypeLoc,joinInfree.emailValue);
 		typeByXpath(joinInfree.passwordLoc,joinInfree.PasswordValue);
 		typeByXpath(joinInfree.confirmPasswordLoc,joinInfree.confirmPasswordValue);
-		clickByXpath(joinInfree.clickSubmitLoc);
+		//clickByXpath(joinInfree.clickSubmitLoc);
+		clickByCss (joinInfree.clickSubmitLoc);
+		//driver.findElement(By.cssSelector(joinInfree.clickSubmitLoc)).click();
+		//clickByClass(joinInfree.clickSubmitLoc);
 		
 		
 		String act = driver.findElement(By.xpath(joinInfree.myActualFullNameLoc)).getText(); 
-		 String exp = "Mohammad uddin";
+		 String exp = "Mr. ala uddin";
 		 Assert.assertEquals(act, exp);
+	}
+
+	private void clickByClass(String clickSubmitLoc) {
+		// TODO Auto-generated method stub
+		
 	}
 
 	

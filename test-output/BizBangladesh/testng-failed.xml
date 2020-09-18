@@ -22,14 +22,14 @@
         <methods>
           <include name="tearDown"/>
           <include name="afterEachTestMethod"/>
-          <include name="JoinInTest"/>
           <include name="openBrowers"/>
+          <include name="JoinInBiz"/>
           <include name="startTestSuite"/>
         </methods>
       </class> <!-- testSide.JoinInTest -->
       <class name="testSide.SignInTest">
         <methods>
-          <include name="SignInTest"/>
+          <include name="SignInBiz"/>
         </methods>
       </class> <!-- testSide.SignInTest -->
     </classes>

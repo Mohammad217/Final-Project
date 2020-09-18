@@ -30,7 +30,7 @@ public class BizBangladesh extends WDFunctions {
         System.out.println(driver.getTitle());
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
-		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
  }
@@ -44,7 +44,7 @@ public class BizBangladesh extends WDFunctions {
 
 	@AfterSuite
 	public void tearDown(){
-		//driver.quit();
+		driver.quit();
 		System.out.println (" Terminated WD  ");
 	}
 

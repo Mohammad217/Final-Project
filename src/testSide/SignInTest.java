@@ -2,6 +2,7 @@ package testSide;
 
 import org.openqa.selenium.By;
 
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -21,7 +22,7 @@ public class SignInTest extends BizBangladesh {
 	 clickByXpath(signInPage.signInButtonLoc);
 	 
 	 String act = driver.findElement(By.xpath(signInPage.myActualFullNameLoc)).getText(); 
-	 String exp = "Mohammad uddin";
+	 String exp = "Mr. ala uddin";
 	 Assert.assertEquals(act, exp);
 	 
  }
