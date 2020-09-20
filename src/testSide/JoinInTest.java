@@ -25,10 +25,7 @@ public class JoinInTest extends BizBangladesh {
 		typeByXpath(joinInfree.emailTypeLoc,joinInfree.emailValue);
 		typeByXpath(joinInfree.passwordLoc,joinInfree.PasswordValue);
 		typeByXpath(joinInfree.confirmPasswordLoc,joinInfree.confirmPasswordValue);
-		//clickByXpath(joinInfree.clickSubmitLoc);
 		clickByCss (joinInfree.clickSubmitLoc);
-		//driver.findElement(By.cssSelector(joinInfree.clickSubmitLoc)).click();
-		//clickByClass(joinInfree.clickSubmitLoc);
 		
 		
 		String act = driver.findElement(By.xpath(joinInfree.myActualFullNameLoc)).getText(); 
@@ -36,12 +33,11 @@ public class JoinInTest extends BizBangladesh {
 		 Assert.assertEquals(act, exp);
 	}
 
-	private void clickByClass(String clickSubmitLoc) {
-		// TODO Auto-generated method stub
+	
 		
 	}
 
 	
 		
-	}
+	
 

@@ -20,8 +20,10 @@ public class SignInWithInvalideEmail extends BizBangladesh {
 		 typeByXpath(invaild.passwordLoc, invaild.passwordvalue);
 		 clickByXpath(invaild.signInButtonLoc);
 		 
-		 String act = driver.findElement(By.xpath(invaild.myActualFullNameLoc)).getText(); 
-		 String exp = "Mohammad uddin";
-		 Assert.assertEquals(act, exp);
+		
+				String myActualFullNameLoc = null;
+				String act = driver.findElement(By.xpath(myActualFullNameLoc)).getText(); 
+				String exp = "Mr. ala uddin"; 
+				Assert.assertEquals(act, exp);
 }
 }

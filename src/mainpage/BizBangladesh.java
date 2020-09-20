@@ -3,8 +3,10 @@ package mainpage;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
@@ -19,7 +21,7 @@ public class BizBangladesh extends WDFunctions {
 	}
 
 	@Parameters
-	@BeforeTest
+	@BeforeMethod
 	
 	
 	public void openBrowers() {
@@ -36,7 +38,7 @@ public class BizBangladesh extends WDFunctions {
  }
  
 
-	@AfterTest
+	@AfterMethod
 	public void afterEachTestMethod(){
 		//driver.close();
 		System.out.println (" Test is ended and browser is closeded +++++++ ");
@@ -44,7 +46,7 @@ public class BizBangladesh extends WDFunctions {
 
 	@AfterSuite
 	public void tearDown(){
-		driver.quit();
+		//driver.quit();
 		System.out.println (" Terminated WD  ");
 	}
 

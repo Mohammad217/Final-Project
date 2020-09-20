@@ -15,7 +15,9 @@ public class JoinFreeLocater {
 	public String passwordLoc           ="//*[@id='password']";
 	public String confirmPasswordLoc    ="//*[@id='confirm_password']";
 	public String clickSubmitLoc        ="body > section > div > div > div.mb-5 > div > div:nth-child(2) > div > form > div.text-center > button";//css
-	//public String clickSubmitLoc       ="btn btn-sm btn-pumpkin px-4 business-listing-from ";
+	
+	
+	
 	
 	
 	
@@ -25,7 +27,8 @@ public class JoinFreeLocater {
 	public String PasswordValue         ="Armansamil08";
 	public String confirmPasswordValue  ="Armansamil08";
 	public String companyNameValue      ="4sonlineStore";
-	public String myActualFullNameLoc   = "Mr. ala uddin";
+	public String myActualFullNameLoc   = "/html/body/main/div/div/div[1]/div/div[1]/p[1]";
+	public String FullNameValue         ="Mr. ala uddin";
 	
 
 }
