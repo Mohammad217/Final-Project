@@ -1,37 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [AllTestSuite]">
-  <parameter name="browser" value="https://bizbangladesh.com/"/>
-  <test name="bizbangladesh.com all Test Suite">
-    <parameter name="browser" value="https://bizbangladesh.com/"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
     <classes>
-      <class name="testSide.JoinInTest"/>
       <class name="testSide.SignInTest"/>
-      <class name="testSide.SignInWithInvalideEmail"/>
     </classes>
-  </test> <!-- bizbangladesh.com all Test Suite -->
-  <test name="bizbangladesh.com all Test Suite(failed)">
-    <parameter name="browser" value="https://bizbangladesh.com/"/>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
     <classes>
-      <class name="testSide.SignInWithInvalideEmail">
+      <class name="testSide.SignInTest">
         <methods>
-          <include name="SignInTest"/>
-        </methods>
-      </class> <!-- testSide.SignInWithInvalideEmail -->
-      <class name="testSide.JoinInTest">
-        <methods>
+          <include name="SignInBiz"/>
           <include name="tearDown"/>
           <include name="afterEachTestMethod"/>
-          <include name="JoinInTest"/>
           <include name="openBrowers"/>
           <include name="startTestSuite"/>
         </methods>
-      </class> <!-- testSide.JoinInTest -->
-      <class name="testSide.SignInTest">
-        <methods>
-          <include name="SignInTest"/>
-        </methods>
       </class> <!-- testSide.SignInTest -->
     </classes>
-  </test> <!-- bizbangladesh.com all Test Suite(failed) -->
-</suite> <!-- Failed suite [AllTestSuite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

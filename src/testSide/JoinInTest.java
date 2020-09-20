@@ -1,6 +1,7 @@
 package testSide;
 
 import org.openqa.selenium.By;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -12,7 +13,7 @@ public class JoinInTest extends BizBangladesh {
 	JoinFreeLocater joinInfree=new JoinFreeLocater();
 	
 	@Test
-	public void JoinInTest(){
+	public void JoinInBiz(){
 		System.out.println("Join in free BizBangladesh ");
 		clickByXpath(joinInfree.joinInLinkLoc );
 		typeByXpath(joinInfree.companyNameLoc, joinInfree.companyNameValue);
@@ -23,7 +24,7 @@ public class JoinInTest extends BizBangladesh {
 		typeByXpath(joinInfree.emailTypeLoc,joinInfree.emailValue);
 		typeByXpath(joinInfree.passwordLoc,joinInfree.PasswordValue);
 		typeByXpath(joinInfree.confirmPasswordLoc,joinInfree.confirmPasswordValue);
-		//clickByXpath(joinInfree.clickSubmitLoc);
+		clickByXpath(joinInfree.clickSubmitLoc);
 		
 		
 		String act = driver.findElement(By.xpath(joinInfree.myActualFullNameLoc)).getText(); 

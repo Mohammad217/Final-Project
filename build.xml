@@ -74,8 +74,8 @@
 
     <!-- run -->
     <target name="run" depends="compile">
-        <testng classpath="${test.classpath}:${test.dest}" suitename="bizbangladesh">	
-              	<xmlfileset dir="${ws.home}" includes="AllTestSuite.xml"/>
+        <testng classpath="${test.classpath}:${test.dest}" suitename="Final-project">	
+              	<xmlfileset dir="${ws.home}" includes="BizBangladesh.xml"/>
         	
    
      <!-- <xmlfileset dir="${ws.home}" includes="testngCh.xml"/>
