@@ -37,7 +37,7 @@ public class BizBangladesh extends WDFunctions {
 	@AfterMethod
 	public void afterEachTestMethod(){
 		driver.close();
-		System.out.println (" Test is ended and browser is closeded ");
+		System.out.println (" Test is ended and browser is closeded++ ");
 	}
 
 	@AfterSuite
