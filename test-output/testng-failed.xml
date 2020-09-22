@@ -7,19 +7,11 @@
     <classes>
       <class name="testSide.JoinInTest"/>
       <class name="testSide.SignInTest"/>
-      <class name="testSide.SignInWithInvalideEmail"/>
     </classes>
   </test> <!-- bizbangladesh.com all Test Suite -->
   <test name="bizbangladesh.com all Test Suite(failed)">
     <parameter name="browser" value="https://bizbangladesh.com/"/>
     <classes>
-      <class name="testSide.SignInWithInvalideEmail">
-        <methods>
-          <include name="afterEachTestMethod"/>
-          <include name="openBrowers"/>
-          <include name="SignInTest"/>
-        </methods>
-      </class> <!-- testSide.SignInWithInvalideEmail -->
       <class name="testSide.JoinInTest">
         <methods>
           <include name="tearDown"/>
@@ -31,6 +23,7 @@
       </class> <!-- testSide.JoinInTest -->
       <class name="testSide.SignInTest">
         <methods>
+          <include name="distableTest"/>
           <include name="afterEachTestMethod"/>
           <include name="ComputerItTest"/>
           <include name="openBrowers"/>

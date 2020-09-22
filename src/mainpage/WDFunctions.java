@@ -1,7 +1,6 @@
 package mainpage;
 import org.openqa.selenium.By;
-
-
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
@@ -17,6 +16,11 @@ public class WDFunctions {
 		Date date = new Date();  
 		System.out.println(formatter.format(date)); 
 		System.out.println (" my test suite started at this time --> " +formatter.format(date));
+	}
+	
+	public void scroll(){
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,85)");
 	}
 	
 	// --------------------- EDIT BOX / TYPE -----------------------

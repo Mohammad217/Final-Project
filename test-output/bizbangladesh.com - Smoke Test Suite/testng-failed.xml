@@ -2,23 +2,33 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [bizbangladesh.com - Smoke Test Suite]">
   <parameter name="browser" value="chrome"/>
+  <test name="Running Smoke suite in chrome">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testSide.SignInTest"/>
+      <class name="testSide.JoinInTest"/>
+    </classes>
+  </test> <!-- Running Smoke suite in chrome -->
   <test name="Running Smoke suite in chrome(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="testSide.JoinInTest">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="openBrowers"/>
+          <include name="JoinInBiz"/>
+        </methods>
+      </class> <!-- testSide.JoinInTest -->
       <class name="testSide.SignInTest">
         <methods>
-          <include name="SignInBiz"/>
+          <include name="healthMedicalTest"/>
           <include name="tearDown"/>
           <include name="afterEachTestMethod"/>
+          <include name="ComputerItTest"/>
           <include name="openBrowers"/>
           <include name="startTestSuite"/>
         </methods>
       </class> <!-- testSide.SignInTest -->
-      <class name="testSide.JoinInTest">
-        <methods>
-          <include name="JoinInBiz"/>
-        </methods>
-      </class> <!-- testSide.JoinInTest -->
     </classes>
   </test> <!-- Running Smoke suite in chrome(failed) -->
 </suite> <!-- Failed suite [bizbangladesh.com - Smoke Test Suite] -->

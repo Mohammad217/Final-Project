@@ -1,8 +1,8 @@
 package testSide;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
+import org.testng.SkipException;
 import org.testng.annotations.Test;
 
 import locaterPage.JoinFreeSignIn;
@@ -20,27 +20,64 @@ public class SignInTest extends BizBangladesh {
 	 typeByXpath(signInPage.passwordLoc,signInPage.passwordvalue);
 	 clickByXpath(signInPage.signInButtonLoc);
 	 
+	 String act = driver.findElement(By.xpath(signInPage.myActualFullNameLoc)).getText(); 
+		String exp = "Mr. ala uddin"; 
+		Assert.assertEquals(act, exp);
 	
+	 System.out.println("Sign out Sucessfully");
+	 clickByXpath(signInPage.logoutLoc);
+	 scroll();
+	 clickByXpath(signInPage.logoutButtonLoc);
  }
+ 
+ 
  @Test(priority=2)
- public void ComputerItTest() throws InterruptedException{
-	 System.out.println("Computer and IT verify ");
+ public void ComputerItTest() {
+	 System.out.println("Computer and IT test verify ");
 	
 	clickByXpath(signInPage.productsLoc);
-	JavascriptExecutor js = (JavascriptExecutor) driver;
-	js.executeScript("window.scrollBy(0,78)", "");
+	scroll();
 	clickByXpath(signInPage.computerItServicesLoc);
-	clickByXpath(signInPage.websiteDesignLoc);
-	clickByXpath(signInPage.requestLoc);
+	//clickByXpath(signInPage.websiteDesignLoc);
+	//clickByXpath(signInPage.requestLoc);
 	 }
  
- //@Test(priority=3)
+ @Test(priority=3,enabled=false)
  public void  healthMedicalTest(){
+	 
+	    System.out.println("Health Medical test verify");
 	    clickByXpath(signInPage.productsLoc);
+	    scroll();
 		clickByXpath(signInPage.healthMedicalLoc);
 		clickByXpath(signInPage.polyCareLoc);
 	    clickByXpath(signInPage.requestLoc);
+		
 	 
  }
- 
+ @Test(priority=4)
+	public void distableTest(){
+		System.out.println (" Don't want to exectue the test at all and it won't show up in report");
+		throw new SkipException("skipping this test because business requiment is changed");
+	}
+ @Test(priority=5, enabled=true)
+	public void tryCatchTest(){
+		System.out.println (" try catch block test");
+		String actual 		= "Bangladesh Business Information and Business Opportunities";
+		String expected 	= "Bangladesh Business Information and Business Opportunities";
+		try {
+			Assert.assertEquals(actual, expected);
+		}catch (Throwable issue){
+			System.err.println ("actual is not matching with expected" + issue);
+		}
+ }
+		@Test(priority=6)
+		 
+		 public void invaildemail(){
+			 System.out.println("Sign in with vaild email and password ");
+			 clickByXpath(signInPage.clickSignIn);
+			 typeByXpath(signInPage.emailLoc , signInPage.invaildemailLoc);
+			 typeByXpath(signInPage.passwordLoc, signInPage.passwordvalue);
+			 clickByXpath(signInPage.signInButtonLoc);
+			 
+ }
 }

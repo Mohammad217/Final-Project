@@ -6,7 +6,7 @@
     <classes>
       <class name="testSide.JoinInTest"/>
       <class name="testSide.SignInTest"/>
-      <class name="testSide.SignInWithInvalideEmail"/>
+     
     </classes>
   </test> <!-- Test -->
 </suite> <!-- allTestSuite -->

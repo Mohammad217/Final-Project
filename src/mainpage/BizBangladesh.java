@@ -1,16 +1,12 @@
 package mainpage;
 
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
-import com.beust.jcommander.Parameter;
 
 
 public class BizBangladesh extends WDFunctions {
@@ -32,22 +28,22 @@ public class BizBangladesh extends WDFunctions {
         System.out.println(driver.getTitle());
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
-		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(90, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 
  }
  
 
 	@AfterMethod
 	public void afterEachTestMethod(){
-		//driver.close();
-		System.out.println (" Test is ended and browser is closeded +++++++ ");
+		driver.close();
+		System.out.println (" Test is ended and browser is closeded ");
 	}
 
 	@AfterSuite
 	public void tearDown(){
 		//driver.quit();
-		System.out.println (" Terminated WD  ");
+		System.out.println (" Terminated WDfunction  ");
 	}
 
 }

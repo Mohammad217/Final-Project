@@ -10,6 +10,7 @@
     <classes>
       <class name="testSide.SignInTest">
         <methods>
+          <include name="distableTest"/>
           <include name="tearDown"/>
           <include name="afterEachTestMethod"/>
           <include name="ComputerItTest"/>

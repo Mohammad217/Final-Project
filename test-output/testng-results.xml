@@ -1,97 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="3" total="4" passed="1">
+<testng-results skipped="1" failed="2" total="6" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="BizBangladesh" duration-ms="43450" started-at="2020-09-20T16:50:04Z" finished-at="2020-09-20T16:50:47Z">
+  <suite name="BizBangladesh" duration-ms="61794" started-at="2020-09-22T16:54:21Z" finished-at="2020-09-22T16:55:23Z">
     <groups>
     </groups>
-    <test name="bizbangladesh.com all Test Suite" duration-ms="43450" started-at="2020-09-20T16:50:04Z" finished-at="2020-09-20T16:50:47Z">
-      <class name="testSide.SignInWithInvalideEmail">
-        <test-method status="PASS" signature="openBrowers()[pri:0, instance:testSide.SignInWithInvalideEmail@2aafb23c]" name="openBrowers" is-config="true" duration-ms="6108" started-at="2020-09-20T12:50:39Z" finished-at="2020-09-20T12:50:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowers -->
-        <test-method status="FAIL" signature="SignInTest()[pri:0, instance:testSide.SignInWithInvalideEmail@2aafb23c]" name="SignInTest" duration-ms="2233" started-at="2020-09-20T12:50:45Z" finished-at="2020-09-20T12:50:47Z">
-          <exception class="java.lang.IllegalArgumentException">
-            <message>
-              <![CDATA[Cannot find elements when the XPath is null.]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: Cannot find elements when the XPath is null.
-	at org.openqa.selenium.By$ByXPath.<init>(By.java:339)
-	at org.openqa.selenium.By.xpath(By.java:92)
-	at testSide.SignInWithInvalideEmail.SignInTest(SignInWithInvalideEmail.java:25)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SignInTest -->
-        <test-method status="PASS" signature="afterEachTestMethod()[pri:0, instance:testSide.SignInWithInvalideEmail@2aafb23c]" name="afterEachTestMethod" is-config="true" duration-ms="1" started-at="2020-09-20T12:50:47Z" finished-at="2020-09-20T12:50:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-      </class> <!-- testSide.SignInWithInvalideEmail -->
+    <test name="bizbangladesh.com all Test Suite" duration-ms="61794" started-at="2020-09-22T16:54:21Z" finished-at="2020-09-22T16:55:23Z">
       <class name="testSide.SignInTest">
-        <test-method status="PASS" signature="openBrowers()[pri:0, instance:testSide.SignInTest@34340fab]" name="openBrowers" is-config="true" duration-ms="6148" started-at="2020-09-20T12:50:14Z" finished-at="2020-09-20T12:50:20Z">
+        <test-method status="PASS" signature="openBrowers()[pri:0, instance:testSide.SignInTest@2aafb23c]" name="openBrowers" is-config="true" duration-ms="6027" started-at="2020-09-22T12:54:31Z" finished-at="2020-09-22T12:54:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowers -->
-        <test-method status="PASS" signature="SignInBiz()[pri:1, instance:testSide.SignInTest@34340fab]" name="SignInBiz" duration-ms="4164" started-at="2020-09-20T12:50:20Z" finished-at="2020-09-20T12:50:24Z">
+        <test-method status="PASS" signature="SignInBiz()[pri:1, instance:testSide.SignInTest@2aafb23c]" name="SignInBiz" duration-ms="6652" started-at="2020-09-22T12:54:37Z" finished-at="2020-09-22T12:54:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignInBiz -->
-        <test-method status="PASS" signature="afterEachTestMethod()[pri:0, instance:testSide.SignInTest@34340fab]" name="afterEachTestMethod" is-config="true" duration-ms="1" started-at="2020-09-20T12:50:24Z" finished-at="2020-09-20T12:50:24Z">
+        <test-method status="PASS" signature="afterEachTestMethod()[pri:0, instance:testSide.SignInTest@2aafb23c]" name="afterEachTestMethod" is-config="true" duration-ms="77" started-at="2020-09-22T12:54:44Z" finished-at="2020-09-22T12:54:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="openBrowers()[pri:0, instance:testSide.SignInTest@34340fab]" name="openBrowers" is-config="true" duration-ms="6036" started-at="2020-09-20T12:50:24Z" finished-at="2020-09-20T12:50:31Z">
+        <test-method status="PASS" signature="openBrowers()[pri:0, instance:testSide.SignInTest@2aafb23c]" name="openBrowers" is-config="true" duration-ms="6043" started-at="2020-09-22T12:54:44Z" finished-at="2020-09-22T12:54:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowers -->
-        <test-method status="FAIL" signature="ComputerItTest()[pri:2, instance:testSide.SignInTest@34340fab]" name="ComputerItTest" duration-ms="8529" started-at="2020-09-20T12:50:31Z" finished-at="2020-09-20T12:50:39Z">
+        <test-method status="FAIL" signature="ComputerItTest()[pri:2, instance:testSide.SignInTest@2aafb23c]" name="ComputerItTest" duration-ms="7186" started-at="2020-09-22T12:54:50Z" finished-at="2020-09-22T12:54:57Z">
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[element click intercepted: Element is not clickable at point (789, 1487)
+              <![CDATA[element click intercepted: Element is not clickable at point (139, 576)
   (Session info: chrome=85.0.4183.102)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'MOHAMMAD-UDDIN', ip: '192.168.1.122', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+System info: host: 'MOHAMMAD-UDDIN', ip: '192.168.1.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\alaud\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51152}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: ece066512e02345d58dd9fddfceeb9d3]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\alaud\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61784}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a32eeaa47eed3938713eec246d071c63]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (789, 1487)
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (139, 576)
   (Session info: chrome=85.0.4183.102)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'MOHAMMAD-UDDIN', ip: '192.168.1.122', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+System info: host: 'MOHAMMAD-UDDIN', ip: '192.168.1.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\alaud\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51152}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: ece066512e02345d58dd9fddfceeb9d3
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\alaud\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61784}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a32eeaa47eed3938713eec246d071c63
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -104,8 +54,8 @@ Session ID: ece066512e02345d58dd9fddfceeb9d3
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at mainpage.WDFunctions.clickByXpath(WDFunctions.java:40)
-	at testSide.SignInTest.ComputerItTest(SignInTest.java:33)
+	at mainpage.WDFunctions.clickByXpath(WDFunctions.java:44)
+	at testSide.SignInTest.ComputerItTest(SignInTest.java:40)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -136,39 +86,109 @@ Session ID: ece066512e02345d58dd9fddfceeb9d3
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ComputerItTest -->
-        <test-method status="PASS" signature="afterEachTestMethod()[pri:0, instance:testSide.SignInTest@34340fab]" name="afterEachTestMethod" is-config="true" duration-ms="1" started-at="2020-09-20T12:50:39Z" finished-at="2020-09-20T12:50:39Z">
+        <test-method status="PASS" signature="afterEachTestMethod()[pri:0, instance:testSide.SignInTest@2aafb23c]" name="afterEachTestMethod" is-config="true" duration-ms="77" started-at="2020-09-22T12:54:57Z" finished-at="2020-09-22T12:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="openBrowers()[pri:0, instance:testSide.SignInTest@2aafb23c]" name="openBrowers" is-config="true" duration-ms="6023" started-at="2020-09-22T12:54:57Z" finished-at="2020-09-22T12:55:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowers -->
+        <test-method status="SKIP" signature="distableTest()[pri:4, instance:testSide.SignInTest@2aafb23c]" name="distableTest" duration-ms="1" started-at="2020-09-22T12:55:03Z" finished-at="2020-09-22T12:55:03Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[skipping this test because business requiment is changed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: skipping this test because business requiment is changed
+	at testSide.SignInTest.distableTest(SignInTest.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- distableTest -->
+        <test-method status="PASS" signature="afterEachTestMethod()[pri:0, instance:testSide.SignInTest@2aafb23c]" name="afterEachTestMethod" is-config="true" duration-ms="56" started-at="2020-09-22T12:55:03Z" finished-at="2020-09-22T12:55:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="openBrowers()[pri:0, instance:testSide.SignInTest@2aafb23c]" name="openBrowers" is-config="true" duration-ms="6082" started-at="2020-09-22T12:55:04Z" finished-at="2020-09-22T12:55:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowers -->
+        <test-method status="PASS" signature="tryCatchTest()[pri:5, instance:testSide.SignInTest@2aafb23c]" name="tryCatchTest" duration-ms="1" started-at="2020-09-22T12:55:10Z" finished-at="2020-09-22T12:55:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryCatchTest -->
+        <test-method status="PASS" signature="afterEachTestMethod()[pri:0, instance:testSide.SignInTest@2aafb23c]" name="afterEachTestMethod" is-config="true" duration-ms="4424" started-at="2020-09-22T12:55:10Z" finished-at="2020-09-22T12:55:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="openBrowers()[pri:0, instance:testSide.SignInTest@2aafb23c]" name="openBrowers" is-config="true" duration-ms="6076" started-at="2020-09-22T12:55:14Z" finished-at="2020-09-22T12:55:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowers -->
+        <test-method status="PASS" signature="invaildemail()[pri:6, instance:testSide.SignInTest@2aafb23c]" name="invaildemail" duration-ms="2339" started-at="2020-09-22T12:55:20Z" finished-at="2020-09-22T12:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invaildemail -->
+        <test-method status="PASS" signature="afterEachTestMethod()[pri:0, instance:testSide.SignInTest@2aafb23c]" name="afterEachTestMethod" is-config="true" duration-ms="65" started-at="2020-09-22T12:55:22Z" finished-at="2020-09-22T12:55:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
       </class> <!-- testSide.SignInTest -->
       <class name="testSide.JoinInTest">
-        <test-method status="PASS" signature="startTestSuite()[pri:0, instance:testSide.JoinInTest@6fffcba5]" name="startTestSuite" is-config="true" duration-ms="37" started-at="2020-09-20T12:50:04Z" finished-at="2020-09-20T12:50:04Z">
+        <test-method status="PASS" signature="startTestSuite()[pri:0, instance:testSide.JoinInTest@34340fab]" name="startTestSuite" is-config="true" duration-ms="32" started-at="2020-09-22T12:54:21Z" finished-at="2020-09-22T12:54:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTestSuite -->
-        <test-method status="PASS" signature="openBrowers()[pri:0, instance:testSide.JoinInTest@6fffcba5]" name="openBrowers" is-config="true" duration-ms="6905" started-at="2020-09-20T12:50:04Z" finished-at="2020-09-20T12:50:11Z">
+        <test-method status="PASS" signature="openBrowers()[pri:0, instance:testSide.JoinInTest@34340fab]" name="openBrowers" is-config="true" duration-ms="6986" started-at="2020-09-22T12:54:21Z" finished-at="2020-09-22T12:54:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowers -->
-        <test-method status="FAIL" signature="JoinInBiz()[pri:0, instance:testSide.JoinInTest@6fffcba5]" name="JoinInBiz" duration-ms="3299" started-at="2020-09-20T12:50:11Z" finished-at="2020-09-20T12:50:14Z">
+        <test-method status="FAIL" signature="JoinInBiz()[pri:0, instance:testSide.JoinInTest@34340fab]" name="JoinInBiz" duration-ms="3585" started-at="2020-09-22T12:54:28Z" finished-at="2020-09-22T12:54:31Z">
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[element click intercepted: Element is not clickable at point (922, 747)
+              <![CDATA[element click intercepted: Element is not clickable at point (922, 728)
   (Session info: chrome=85.0.4183.102)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'MOHAMMAD-UDDIN', ip: '192.168.1.122', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+System info: host: 'MOHAMMAD-UDDIN', ip: '192.168.1.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\alaud\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51110}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c59fffa21ea399411c84f0f3b54d6a61]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\alaud\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61729}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6983f69846b1b20d44ed4fc245a76bb6]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (922, 747)
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (922, 728)
   (Session info: chrome=85.0.4183.102)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'MOHAMMAD-UDDIN', ip: '192.168.1.122', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+System info: host: 'MOHAMMAD-UDDIN', ip: '192.168.1.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\alaud\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51110}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c59fffa21ea399411c84f0f3b54d6a61
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\alaud\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61729}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6983f69846b1b20d44ed4fc245a76bb6
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -181,8 +201,8 @@ Session ID: c59fffa21ea399411c84f0f3b54d6a61
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at mainpage.WDFunctions.clickByCss(WDFunctions.java:43)
-	at testSide.JoinInTest.JoinInBiz(JoinInTest.java:28)
+	at mainpage.WDFunctions.clickByXpath(WDFunctions.java:44)
+	at testSide.JoinInTest.JoinInBiz(JoinInTest.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -213,11 +233,11 @@ Session ID: c59fffa21ea399411c84f0f3b54d6a61
           <reporter-output>
           </reporter-output>
         </test-method> <!-- JoinInBiz -->
-        <test-method status="PASS" signature="afterEachTestMethod()[pri:0, instance:testSide.JoinInTest@6fffcba5]" name="afterEachTestMethod" is-config="true" duration-ms="1" started-at="2020-09-20T12:50:14Z" finished-at="2020-09-20T12:50:14Z">
+        <test-method status="PASS" signature="afterEachTestMethod()[pri:0, instance:testSide.JoinInTest@34340fab]" name="afterEachTestMethod" is-config="true" duration-ms="67" started-at="2020-09-22T12:54:31Z" finished-at="2020-09-22T12:54:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testSide.JoinInTest@6fffcba5]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-09-20T12:50:47Z" finished-at="2020-09-20T12:50:47Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testSide.JoinInTest@34340fab]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-09-22T12:55:23Z" finished-at="2020-09-22T12:55:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
