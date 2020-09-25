@@ -11,7 +11,8 @@ import mainpage.BizBangladesh;
 public class SignInTest extends BizBangladesh {
 	
 	JoinFreeSignIn signInPage=new JoinFreeSignIn();
- @Test(priority=1)
+	
+@Test(priority=1)
  
  public void SignInBiz(){
 	 System.out.println("Sign in with vaild email and password ");
@@ -21,8 +22,8 @@ public class SignInTest extends BizBangladesh {
 	 clickByXpath(signInPage.signInButtonLoc);
 	 
 	 String act = driver.findElement(By.xpath(signInPage.myActualFullNameLoc)).getText(); 
-		String exp = "Mr. ala uddin"; 
-		Assert.assertEquals(act, exp);
+	 String exp = "Mr. ala uddin"; 
+	 Assert.assertEquals(act, exp);
 	
 	 System.out.println("Sign out Sucessfully");
 	 clickByXpath(signInPage.logoutLoc);
@@ -33,19 +34,18 @@ public class SignInTest extends BizBangladesh {
  
  @Test(priority=2)
  public void ComputerItTest() {
-	 System.out.println("Computer and IT test verify ");
-	
+	 
+	System.out.println("Computer and IT test verify ");
 	clickByXpath(signInPage.productsLoc);
 	scroll();
 	clickByXpath(signInPage.computerItServicesLoc);
-	//clickByXpath(signInPage.websiteDesignLoc);
-	//clickByXpath(signInPage.requestLoc);
+	
 	 }
  
  @Test(priority=3,enabled=false)
  public void  healthMedicalTest(){
 	 
-	    System.out.println("Health Medical test verify");
+	    System.out.println("Don't want to exectue the test at all and it won't show up in report");
 	    clickByXpath(signInPage.productsLoc);
 	    scroll();
 		clickByXpath(signInPage.healthMedicalLoc);
@@ -56,8 +56,8 @@ public class SignInTest extends BizBangladesh {
  }
  @Test(priority=4)
 	public void distableTest(){
-		System.out.println (" Don't want to exectue the test at all and it won't show up in report");
-		throw new SkipException("skipping this test because business requiment is changed");
+		System.out.println ("skipping this test because business requiment is changed ");
+		throw new SkipException("skipping test");
 	}
  @Test(priority=5, enabled=true)
 	public void tryCatchTest(){

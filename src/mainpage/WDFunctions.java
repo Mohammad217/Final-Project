@@ -1,11 +1,13 @@
 package mainpage;
 import org.openqa.selenium.By;
+
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 
 public class WDFunctions {
 
@@ -62,7 +64,7 @@ public class WDFunctions {
 	public void assertEqualByXpath (String loc, String expValue){
 		String act = driver.findElement(By.xpath(loc)).getText(); 
 		// act is coming from Domain -- the one developer build and release
-		String exp = expValue; // exp is coming from Requirement or Mock-up
+		String exp = expValue; //  is coming from Requirement or Mock-up
 		Assert.assertEquals(act, exp);
 	}
 }

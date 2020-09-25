@@ -1,3 +1,41 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [bizbangladesh.com - Smoke Test Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Running Smoke suite in chrome">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testSide.SignInTest"/>
+      <class name="testSide.JoinInTest"/>
+    </classes>
+  </test> <!-- Running Smoke suite in Chrome -->
+  <test name="Running Smoke suite in chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testSide.JoinInTest">
+        <methods>
+
+          <include name="afterEachTestMethod"/>
+          <include name="openBrowers"/>
+          <include name="JoinInBiz"/>
+=======
+          <include name="JoinInTest"/>
+        </methods>
+      </class> <!-- testSide.JoinInTest -->
+      <class name="testSide.SignInTest">
+        <methods>
+          <include name="SignInTest"/>
+          <include name="tearDown"/>
+          <include name="afterEachTestMethod"/>
+          <include name="openBrowers"/>
+          <include name="startTestSuite"/>
+        </methods>
+      </class> <!-- testSide.SignInTest -->
+    </classes>
+  </test> <!-- Running Smoke suite in chrome(failed) -->
+</suite> <!-- Failed suite [bizbangladesh.com - Smoke Test Suite] -->
+=======
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [bizbangladesh.com - Smoke Test Suite]">
@@ -14,17 +52,21 @@
     <classes>
       <class name="testSide.JoinInTest">
         <methods>
-          <include name="afterEachTestMethod"/>
-          <include name="openBrowers"/>
-          <include name="JoinInBiz"/>
+          <include name="JoinInTest"/>
         </methods>
       </class> <!-- testSide.JoinInTest -->
       <class name="testSide.SignInTest">
         <methods>
+
           <include name="healthMedicalTest"/>
           <include name="tearDown"/>
           <include name="afterEachTestMethod"/>
           <include name="ComputerItTest"/>
+=======
+          <include name="SignInTest"/>
+          <include name="tearDown"/>
+          <include name="afterEachTestMethod"/>
+
           <include name="openBrowers"/>
           <include name="startTestSuite"/>
         </methods>
@@ -32,3 +74,4 @@
     </classes>
   </test> <!-- Running Smoke suite in chrome(failed) -->
 </suite> <!-- Failed suite [bizbangladesh.com - Smoke Test Suite] -->
+
