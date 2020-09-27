@@ -13,6 +13,7 @@
           <include name="distableTest"/>
           <include name="tearDown"/>
           <include name="afterEachTestMethod"/>
+          <include name="ComputerItTest"/>
           <include name="openBrowers"/>
           <include name="startTestSuite"/>
         </methods>
