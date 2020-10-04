@@ -1,10 +1,15 @@
 package mainpage;
+
 import org.openqa.selenium.By;
+
 
 import org.openqa.selenium.JavascriptExecutor;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
+
+import org.openqa.selenium.By;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -20,11 +25,12 @@ public class WDFunctions {
 		System.out.println (" my test suite started at this time --> " +formatter.format(date));
 	}
 	
+
 	public void scroll(){
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,85)");
 	}
-	
+
 	// --------------------- EDIT BOX / TYPE -----------------------
 	public void typeByXpath(String loc, String val){
 		driver.findElement(By.xpath(loc)).clear();
@@ -64,9 +70,11 @@ public class WDFunctions {
 	public void assertEqualByXpath (String loc, String expValue){
 		String act = driver.findElement(By.xpath(loc)).getText(); 
 		// act is coming from Domain -- the one developer build and release
+
 		String exp = expValue; //  is coming from Requirement or Mock-up
-		Assert.assertEquals(act, exp);
+
+		String exp1 = expValue; // exp is coming from Requirement or Mock-up
+
+		Assert.assertEquals(act, exp1);
 	}
 }
-
-

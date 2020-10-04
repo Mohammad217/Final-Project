@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+>>>>>>> 4222a49efb24f28b49409317490917e3ed93d84e
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [bizbangladesh.com - Smoke Test Suite]">
@@ -9,17 +13,24 @@
       <class name="testSide.SignInTest"/>
       <class name="testSide.JoinInTest"/>
     </classes>
+<<<<<<< HEAD
   </test> <!-- Running Smoke suite in Chrome -->
+=======
+  </test> <!-- Running Smoke suite in chrome -->
+>>>>>>> 4222a49efb24f28b49409317490917e3ed93d84e
   <test name="Running Smoke suite in chrome(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
       <class name="testSide.JoinInTest">
         <methods>
+<<<<<<< HEAD
 
           <include name="afterEachTestMethod"/>
           <include name="openBrowers"/>
           <include name="JoinInBiz"/>
 =======
+=======
+>>>>>>> 4222a49efb24f28b49409317490917e3ed93d84e
           <include name="JoinInTest"/>
         </methods>
       </class> <!-- testSide.JoinInTest -->
@@ -57,6 +68,7 @@
       </class> <!-- testSide.JoinInTest -->
       <class name="testSide.SignInTest">
         <methods>
+<<<<<<< HEAD
 
           <include name="healthMedicalTest"/>
           <include name="tearDown"/>
@@ -67,6 +79,11 @@
           <include name="tearDown"/>
           <include name="afterEachTestMethod"/>
 
+=======
+          <include name="SignInTest"/>
+          <include name="tearDown"/>
+          <include name="afterEachTestMethod"/>
+>>>>>>> 4222a49efb24f28b49409317490917e3ed93d84e
           <include name="openBrowers"/>
           <include name="startTestSuite"/>
         </methods>
@@ -74,4 +91,8 @@
     </classes>
   </test> <!-- Running Smoke suite in chrome(failed) -->
 </suite> <!-- Failed suite [bizbangladesh.com - Smoke Test Suite] -->
+<<<<<<< HEAD
 
+=======
+>>>>>>> 922ffcbd5f7dc18cd9a93f6a1af56edff6912587
+>>>>>>> 4222a49efb24f28b49409317490917e3ed93d84e
