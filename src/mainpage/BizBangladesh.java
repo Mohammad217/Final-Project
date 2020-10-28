@@ -11,6 +11,8 @@ import org.testng.annotations.Parameters;
 
 public class BizBangladesh extends WDFunctions {
 
+	
+
 	@BeforeSuite
 	public void startTestSuite(){
 		getCurrentTime();
@@ -54,7 +56,7 @@ public class BizBangladesh extends WDFunctions {
 
 	@AfterSuite
 	public void tearDown(){
-		//driver.quit();
+		driver.quit();
 		System.out.println (" Terminated WDfunction  ");
 	}
 

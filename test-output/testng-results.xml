@@ -1,75 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="1" total="7" passed="5">
+<testng-results skipped="1" failed="1" total="8" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="92481" started-at="2020-10-04T05:25:11Z" finished-at="2020-10-04T05:26:43Z">
+  <suite name="BizBangladesh" duration-ms="84028" started-at="2020-10-28T02:29:52Z" finished-at="2020-10-28T02:31:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="92481" started-at="2020-10-04T05:25:11Z" finished-at="2020-10-04T05:26:43Z">
+    <test name="bizbangladesh.com all Test Suite" duration-ms="84028" started-at="2020-10-28T02:29:52Z" finished-at="2020-10-28T02:31:16Z">
       <class name="testSide.SignInTest">
-        <test-method status="PASS" signature="startTestSuite()[pri:0, instance:testSide.SignInTest@1ae369b7]" name="startTestSuite" is-config="true" duration-ms="85" started-at="2020-10-04T01:25:10Z" finished-at="2020-10-04T01:25:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTestSuite -->
-        <test-method status="PASS" signature="openBrowers()[pri:0, instance:testSide.SignInTest@1ae369b7]" name="openBrowers" is-config="true" duration-ms="13086" started-at="2020-10-04T01:25:11Z" finished-at="2020-10-04T01:25:24Z">
+        <test-method status="PASS" signature="openBrowers()[pri:0, instance:testSide.SignInTest@2b80d80f]" name="openBrowers" is-config="true" duration-ms="7791" started-at="2020-10-27T22:30:03Z" finished-at="2020-10-27T22:30:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowers -->
-        <test-method status="PASS" signature="SignInBiz()[pri:1, instance:testSide.SignInTest@1ae369b7]" name="SignInBiz" duration-ms="3718" started-at="2020-10-04T01:25:24Z" finished-at="2020-10-04T01:25:27Z">
+        <test-method status="PASS" signature="SignInBiz()[pri:1, instance:testSide.SignInTest@2b80d80f]" name="SignInBiz" duration-ms="3677" started-at="2020-10-27T22:30:10Z" finished-at="2020-10-27T22:30:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignInBiz -->
-        <test-method status="PASS" signature="afterEachTestMethod()[pri:0, instance:testSide.SignInTest@1ae369b7]" name="afterEachTestMethod" is-config="true" duration-ms="150" started-at="2020-10-04T01:25:27Z" finished-at="2020-10-04T01:25:27Z">
+        <test-method status="PASS" signature="afterEachTestMethod()[pri:0, instance:testSide.SignInTest@2b80d80f]" name="afterEachTestMethod" is-config="true" duration-ms="40" started-at="2020-10-27T22:30:14Z" finished-at="2020-10-27T22:30:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="openBrowers()[pri:0, instance:testSide.SignInTest@1ae369b7]" name="openBrowers" is-config="true" duration-ms="6531" started-at="2020-10-04T01:25:27Z" finished-at="2020-10-04T01:25:34Z">
+        <test-method status="PASS" signature="openBrowers()[pri:0, instance:testSide.SignInTest@2b80d80f]" name="openBrowers" is-config="true" duration-ms="8207" started-at="2020-10-27T22:30:14Z" finished-at="2020-10-27T22:30:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowers -->
-        <test-method status="PASS" signature="NameVerify()[pri:2, instance:testSide.SignInTest@1ae369b7]" name="NameVerify" duration-ms="5606" started-at="2020-10-04T01:25:34Z" finished-at="2020-10-04T01:25:40Z">
+        <test-method status="PASS" signature="NameVerify()[pri:2, instance:testSide.SignInTest@2b80d80f]" name="NameVerify" duration-ms="4074" started-at="2020-10-27T22:30:22Z" finished-at="2020-10-27T22:30:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NameVerify -->
-        <test-method status="PASS" signature="afterEachTestMethod()[pri:0, instance:testSide.SignInTest@1ae369b7]" name="afterEachTestMethod" is-config="true" duration-ms="298" started-at="2020-10-04T01:25:40Z" finished-at="2020-10-04T01:25:40Z">
+        <test-method status="PASS" signature="afterEachTestMethod()[pri:0, instance:testSide.SignInTest@2b80d80f]" name="afterEachTestMethod" is-config="true" duration-ms="41" started-at="2020-10-27T22:30:26Z" finished-at="2020-10-27T22:30:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="openBrowers()[pri:0, instance:testSide.SignInTest@1ae369b7]" name="openBrowers" is-config="true" duration-ms="6375" started-at="2020-10-04T01:25:40Z" finished-at="2020-10-04T01:25:46Z">
+        <test-method status="PASS" signature="openBrowers()[pri:0, instance:testSide.SignInTest@2b80d80f]" name="openBrowers" is-config="true" duration-ms="7049" started-at="2020-10-27T22:30:26Z" finished-at="2020-10-27T22:30:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowers -->
-        <test-method status="PASS" signature="SignOut()[pri:3, instance:testSide.SignInTest@1ae369b7]" name="SignOut" duration-ms="6316" started-at="2020-10-04T01:25:46Z" finished-at="2020-10-04T01:25:53Z">
+        <test-method status="PASS" signature="SignOut()[pri:3, instance:testSide.SignInTest@2b80d80f]" name="SignOut" duration-ms="5297" started-at="2020-10-27T22:30:33Z" finished-at="2020-10-27T22:30:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignOut -->
-        <test-method status="PASS" signature="afterEachTestMethod()[pri:0, instance:testSide.SignInTest@1ae369b7]" name="afterEachTestMethod" is-config="true" duration-ms="4430" started-at="2020-10-04T01:25:53Z" finished-at="2020-10-04T01:25:57Z">
+        <test-method status="PASS" signature="afterEachTestMethod()[pri:0, instance:testSide.SignInTest@2b80d80f]" name="afterEachTestMethod" is-config="true" duration-ms="64" started-at="2020-10-27T22:30:39Z" finished-at="2020-10-27T22:30:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="openBrowers()[pri:0, instance:testSide.SignInTest@1ae369b7]" name="openBrowers" is-config="true" duration-ms="7149" started-at="2020-10-04T01:25:57Z" finished-at="2020-10-04T01:26:04Z">
+        <test-method status="PASS" signature="openBrowers()[pri:0, instance:testSide.SignInTest@2b80d80f]" name="openBrowers" is-config="true" duration-ms="7753" started-at="2020-10-27T22:30:39Z" finished-at="2020-10-27T22:30:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowers -->
-        <test-method status="FAIL" signature="ComputerItTest()[pri:4, instance:testSide.SignInTest@1ae369b7]" name="ComputerItTest" duration-ms="8186" started-at="2020-10-04T01:26:04Z" finished-at="2020-10-04T01:26:12Z">
+        <test-method status="FAIL" signature="ComputerItTest()[pri:4, instance:testSide.SignInTest@2b80d80f]" name="ComputerItTest" duration-ms="4446" started-at="2020-10-27T22:30:47Z" finished-at="2020-10-27T22:30:51Z">
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[element click intercepted: Element is not clickable at point (139, 576)
-  (Session info: chrome=85.0.4183.121)
+              <![CDATA[element click intercepted: Element is not clickable at point (789, 1129)
+  (Session info: chrome=86.0.4240.111)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'MOHAMMAD-UDDIN', ip: '192.168.1.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\alaud\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56573}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: bdadb5fac7fbe5fef1f405af7528c6a7]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\alaud\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50721}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c5bb8d4769ec006b81bf1375a573f395]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (139, 576)
-  (Session info: chrome=85.0.4183.121)
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (789, 1129)
+  (Session info: chrome=86.0.4240.111)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'MOHAMMAD-UDDIN', ip: '192.168.1.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\alaud\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56573}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: bdadb5fac7fbe5fef1f405af7528c6a7
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\alaud\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50721}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c5bb8d4769ec006b81bf1375a573f395
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -83,7 +79,7 @@ Session ID: bdadb5fac7fbe5fef1f405af7528c6a7
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
 	at mainpage.WDFunctions.clickByXpath(WDFunctions.java:52)
-	at testSide.SignInTest.ComputerItTest(SignInTest.java:56)
+	at testSide.SignInTest.ComputerItTest(SignInTest.java:57)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -114,22 +110,22 @@ Session ID: bdadb5fac7fbe5fef1f405af7528c6a7
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ComputerItTest -->
-        <test-method status="PASS" signature="afterEachTestMethod()[pri:0, instance:testSide.SignInTest@1ae369b7]" name="afterEachTestMethod" is-config="true" duration-ms="107" started-at="2020-10-04T01:26:12Z" finished-at="2020-10-04T01:26:12Z">
+        <test-method status="PASS" signature="afterEachTestMethod()[pri:0, instance:testSide.SignInTest@2b80d80f]" name="afterEachTestMethod" is-config="true" duration-ms="49" started-at="2020-10-27T22:30:51Z" finished-at="2020-10-27T22:30:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="openBrowers()[pri:0, instance:testSide.SignInTest@1ae369b7]" name="openBrowers" is-config="true" duration-ms="6430" started-at="2020-10-04T01:26:12Z" finished-at="2020-10-04T01:26:19Z">
+        <test-method status="PASS" signature="openBrowers()[pri:0, instance:testSide.SignInTest@2b80d80f]" name="openBrowers" is-config="true" duration-ms="7109" started-at="2020-10-27T22:30:51Z" finished-at="2020-10-27T22:30:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowers -->
-        <test-method status="SKIP" signature="distableTest()[pri:6, instance:testSide.SignInTest@1ae369b7]" name="distableTest" duration-ms="1" started-at="2020-10-04T01:26:19Z" finished-at="2020-10-04T01:26:19Z">
+        <test-method status="SKIP" signature="distableTest()[pri:6, instance:testSide.SignInTest@2b80d80f]" name="distableTest" duration-ms="1" started-at="2020-10-27T22:30:58Z" finished-at="2020-10-27T22:30:58Z">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[skipping test]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.SkipException: skipping test
-	at testSide.SignInTest.distableTest(SignInTest.java:75)
+	at testSide.SignInTest.distableTest(SignInTest.java:76)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -160,39 +156,57 @@ Session ID: bdadb5fac7fbe5fef1f405af7528c6a7
           <reporter-output>
           </reporter-output>
         </test-method> <!-- distableTest -->
-        <test-method status="PASS" signature="afterEachTestMethod()[pri:0, instance:testSide.SignInTest@1ae369b7]" name="afterEachTestMethod" is-config="true" duration-ms="4401" started-at="2020-10-04T01:26:19Z" finished-at="2020-10-04T01:26:23Z">
+        <test-method status="PASS" signature="afterEachTestMethod()[pri:0, instance:testSide.SignInTest@2b80d80f]" name="afterEachTestMethod" is-config="true" duration-ms="43" started-at="2020-10-27T22:30:58Z" finished-at="2020-10-27T22:30:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="openBrowers()[pri:0, instance:testSide.SignInTest@1ae369b7]" name="openBrowers" is-config="true" duration-ms="6400" started-at="2020-10-04T01:26:23Z" finished-at="2020-10-04T01:26:30Z">
+        <test-method status="PASS" signature="openBrowers()[pri:0, instance:testSide.SignInTest@2b80d80f]" name="openBrowers" is-config="true" duration-ms="7347" started-at="2020-10-27T22:30:58Z" finished-at="2020-10-27T22:31:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowers -->
-        <test-method status="PASS" signature="tryCatchTest()[pri:7, instance:testSide.SignInTest@1ae369b7]" name="tryCatchTest" duration-ms="1" started-at="2020-10-04T01:26:30Z" finished-at="2020-10-04T01:26:30Z">
+        <test-method status="PASS" signature="tryCatchTest()[pri:7, instance:testSide.SignInTest@2b80d80f]" name="tryCatchTest" duration-ms="2" started-at="2020-10-27T22:31:06Z" finished-at="2020-10-27T22:31:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tryCatchTest -->
-        <test-method status="PASS" signature="afterEachTestMethod()[pri:0, instance:testSide.SignInTest@1ae369b7]" name="afterEachTestMethod" is-config="true" duration-ms="4408" started-at="2020-10-04T01:26:30Z" finished-at="2020-10-04T01:26:34Z">
+        <test-method status="PASS" signature="afterEachTestMethod()[pri:0, instance:testSide.SignInTest@2b80d80f]" name="afterEachTestMethod" is-config="true" duration-ms="43" started-at="2020-10-27T22:31:06Z" finished-at="2020-10-27T22:31:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="openBrowers()[pri:0, instance:testSide.SignInTest@1ae369b7]" name="openBrowers" is-config="true" duration-ms="6567" started-at="2020-10-04T01:26:34Z" finished-at="2020-10-04T01:26:41Z">
+        <test-method status="PASS" signature="openBrowers()[pri:0, instance:testSide.SignInTest@2b80d80f]" name="openBrowers" is-config="true" duration-ms="7306" started-at="2020-10-27T22:31:06Z" finished-at="2020-10-27T22:31:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowers -->
-        <test-method status="PASS" signature="invaildemail()[pri:8, instance:testSide.SignInTest@1ae369b7]" name="invaildemail" duration-ms="2172" started-at="2020-10-04T01:26:41Z" finished-at="2020-10-04T01:26:43Z">
+        <test-method status="PASS" signature="invaildemail()[pri:8, instance:testSide.SignInTest@2b80d80f]" name="invaildemail" duration-ms="2791" started-at="2020-10-27T22:31:13Z" finished-at="2020-10-27T22:31:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invaildemail -->
-        <test-method status="PASS" signature="afterEachTestMethod()[pri:0, instance:testSide.SignInTest@1ae369b7]" name="afterEachTestMethod" is-config="true" duration-ms="120" started-at="2020-10-04T01:26:43Z" finished-at="2020-10-04T01:26:43Z">
+        <test-method status="PASS" signature="afterEachTestMethod()[pri:0, instance:testSide.SignInTest@2b80d80f]" name="afterEachTestMethod" is-config="true" duration-ms="66" started-at="2020-10-27T22:31:16Z" finished-at="2020-10-27T22:31:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testSide.SignInTest@1ae369b7]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-10-04T01:26:43Z" finished-at="2020-10-04T01:26:43Z">
+      </class> <!-- testSide.SignInTest -->
+      <class name="testSide.JoinInTest">
+        <test-method status="PASS" signature="startTestSuite()[pri:0, instance:testSide.JoinInTest@2aafb23c]" name="startTestSuite" is-config="true" duration-ms="33" started-at="2020-10-27T22:29:52Z" finished-at="2020-10-27T22:29:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestSuite -->
+        <test-method status="PASS" signature="openBrowers()[pri:0, instance:testSide.JoinInTest@2aafb23c]" name="openBrowers" is-config="true" duration-ms="8257" started-at="2020-10-27T22:29:52Z" finished-at="2020-10-27T22:30:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowers -->
+        <test-method status="PASS" signature="JoinInBiz()[pri:0, instance:testSide.JoinInTest@2aafb23c]" name="JoinInBiz" duration-ms="2497" started-at="2020-10-27T22:30:00Z" finished-at="2020-10-27T22:30:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JoinInBiz -->
+        <test-method status="PASS" signature="afterEachTestMethod()[pri:0, instance:testSide.JoinInTest@2aafb23c]" name="afterEachTestMethod" is-config="true" duration-ms="54" started-at="2020-10-27T22:30:02Z" finished-at="2020-10-27T22:30:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testSide.JoinInTest@2aafb23c]" name="tearDown" is-config="true" duration-ms="535" started-at="2020-10-27T22:31:16Z" finished-at="2020-10-27T22:31:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testSide.SignInTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- testSide.JoinInTest -->
+    </test> <!-- bizbangladesh.com all Test Suite -->
+  </suite> <!-- BizBangladesh -->
 </testng-results>

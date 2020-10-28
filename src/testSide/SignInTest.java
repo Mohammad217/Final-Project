@@ -54,6 +54,7 @@ public class SignInTest extends BizBangladesh {
 	clickByXpath(signInPage.productsLoc);
 	scroll();
 	clickByXpath(signInPage.computerItServicesLoc);
+	clickByXpath(signInPage.websiteDesignLoc);
 	
 	 }
  

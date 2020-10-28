@@ -12,15 +12,6 @@
   <test name="bizbangladesh.com all Test Suite(failed)">
     <parameter name="browser" value="https://bizbangladesh.com/"/>
     <classes>
-      <class name="testSide.JoinInTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="afterEachTestMethod"/>
-          <include name="openBrowers"/>
-          <include name="JoinInBiz"/>
-          <include name="startTestSuite"/>
-        </methods>
-      </class> <!-- testSide.JoinInTest -->
       <class name="testSide.SignInTest">
         <methods>
           <include name="distableTest"/>
@@ -29,6 +20,14 @@
           <include name="openBrowers"/>
         </methods>
       </class> <!-- testSide.SignInTest -->
+      <class name="testSide.JoinInTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="afterEachTestMethod"/>
+          <include name="openBrowers"/>
+          <include name="startTestSuite"/>
+        </methods>
+      </class> <!-- testSide.JoinInTest -->
     </classes>
   </test> <!-- bizbangladesh.com all Test Suite(failed) -->
 </suite> <!-- Failed suite [BizBangladesh] -->

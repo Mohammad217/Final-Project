@@ -3,21 +3,18 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="testSide.SignInTest"/>
+      <class name="testSide.SignInWithInvalideEmail"/>
     </classes>
   </test> <!-- Default test -->
   <test name="Default test(failed)">
     <classes>
-      <class name="testSide.SignInTest">
+      <class name="testSide.SignInWithInvalideEmail">
         <methods>
-          <include name="distableTest"/>
-          <include name="tearDown"/>
-          <include name="afterEachTestMethod"/>
-          <include name="ComputerItTest"/>
           <include name="openBrowers"/>
+          <include name="SignInTest"/>
           <include name="startTestSuite"/>
         </methods>
-      </class> <!-- testSide.SignInTest -->
+      </class> <!-- testSide.SignInWithInvalideEmail -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

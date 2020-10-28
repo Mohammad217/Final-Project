@@ -18,8 +18,8 @@ public class JoinFreeSignIn {
 	public String logoutButtonLoc="//*[@id='header']/div[2]/div[2]/div[2]/a[13]";
 	
 	public String productsLoc="//*[@id='bizMenubar']/ul/li[3]/a";
-	public String computerItServicesLoc="/html/body/section[2]/div/div/div[2]/ul/li[7]/a/span[2]";
-	public String websiteDesignLoc="/html/body/section[2]/div/div/div[2]/div[2]/div[1]/div[8]/div/div[2]/a";
+	public String computerItServicesLoc="/html/body/section[2]/div/div/div[2]/ul/li[7]/a";
+	public String websiteDesignLoc="/html/body/section[2]/div/div/div[2]/div[2]/div[1]/div[5]";
 	public String requestLoc="/html/body/section[1]/div/div/div/div[2]/div/div[3]/a";
 	public String healthMedicalLoc="/html/body/section[2]/div/div/div[2]/ul/li[13]/a/span[2]";
 	public String polyCareLoc="/html/body/section[2]/div/div/div[2]/div[2]/div[1]/div[7]/div/div[1]/a/img";
